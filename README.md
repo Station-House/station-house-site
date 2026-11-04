@@ -6,7 +6,9 @@ The Stationhouse website. Static HTML, no build step, deployed with GitHub Pages
 
 | Path | What it is |
 |---|---|
-| `index.html` | The whole site. One page: nav, hero, projects, app band, footer. |
+| `index.html` | The home page: nav, hero, projects, app band, footer. |
+| `privacy.html` | Privacy policy, served at `/privacy`. Linked from the Google sign-in consent screen. |
+| `terms.html` | Terms of service, served at `/terms`. |
 | `style.css` | All styling. Colours and fonts are CSS variables in the `:root` block at the top. |
 | `404.html` | Not-found page. |
 | `assets/station-house-hero.jpg` | Hero painting. |
